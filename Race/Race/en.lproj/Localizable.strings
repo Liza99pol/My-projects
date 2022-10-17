@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Race
+
+  Created by macbook m1 on 22.07.22.
+  
+*/
+"Title" = "Race";
+"Game" = "Start Game";
+"Settings" = "Settings";
+"Table" = "High score table";
+
+"ThreeViewController_Title" = "Game settings";
+"ThreeViewController_Name" = "Player name";
+"ThreeViewController_ColorCar" = "Choose car";
+"ThreeViewController_Obstacle" = "Select obstacle";
+"ThreeViewController_Save" = "Save";

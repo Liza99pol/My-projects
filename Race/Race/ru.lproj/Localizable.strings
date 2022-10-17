@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Race
+
+  Created by macbook m1 on 22.07.22.
+  
+*/
+"Title" = "Гонки";
+"Game" = "Начать Игру";
+"Settings" = "Настройки";
+"Table" = "Таблица рекордов";
+
+"ThreeViewController_Title" = "Настройки игры";
+"ThreeViewController_Name" = "Имя игрока";
+"ThreeViewController_ColorCar" = "Выберите машину";
+"ThreeViewController_Obstacle" = "Выберите препятствие";
+"ThreeViewController_Save" = "Сохранить";
