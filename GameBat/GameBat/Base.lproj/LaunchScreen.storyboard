@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBg" translatesAutoresizingMaskIntoConstraints="NO" id="c8l-YD-8Iv">
+                                <rect key="frame" x="-1" y="0.0" width="853" height="393"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Mj3-o4-WeW">
+                                <rect key="frame" x="407.66666666666669" y="178" width="37" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="37" id="1mZ-KR-1Jg"/>
+                                    <constraint firstAttribute="height" constant="37" id="hEJ-nN-l6d"/>
+                                </constraints>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mj3-o4-WeW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="FZZ-Zu-t8D"/>
+                            <constraint firstItem="c8l-YD-8Iv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-1" id="TIU-PV-Zlv"/>
+                            <constraint firstItem="c8l-YD-8Iv" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="aYf-RV-6O4"/>
+                            <constraint firstItem="Mj3-o4-WeW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ahQ-2V-umW"/>
+                            <constraint firstAttribute="trailing" secondItem="c8l-YD-8Iv" secondAttribute="trailing" id="ff5-Y1-Z0q"/>
+                            <constraint firstAttribute="bottom" secondItem="c8l-YD-8Iv" secondAttribute="bottom" id="wft-T9-zg0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.816901408450704" y="374.80916030534348"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mainBg" width="493.33334350585938" height="272.66665649414062"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
